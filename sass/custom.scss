@@ -1,0 +1,36 @@
+.fondo{
+	background-image:  url("../imagenes/vender_natura_banner_2.webp"); 
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.fondo2{
+	background-image:  url("../imagenes/vendernatura1.png"); 
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.parallax{
+	background-image: url("../imagenes/fondo-1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+@media only screen and (min-width:900px) and (max-width:2000px){
+
+	
+}
+@media only screen and (min-width:100px) and (max-width:900px){
+ 	
+	.fondo{
+		background-image: url(../imagenes/quierovendernaturacom-movil.jpg);
+	}
+  
+}
+
+$font-family-sans-serif:'DM Sans', sans-serif;
+
+$primary: #F39C12;
+$secondary: #F23838;
+$success: #cccccc;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
